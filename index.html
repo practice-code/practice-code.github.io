@@ -14,6 +14,12 @@ title: Happy Coding
           <div class="card-deck">
             <div class="card">
               <div class="card-body">
+                <div class="mermaid">
+                          graph LR
+                          A --- B
+                          B-->C[fa:fa-ban forbidden]
+                          B-->D(fa:fa-spinner);
+                      </div>
                 <h5 class="card-title">Data Structure and Algorithm</h5>
                 <p class="card-text">Learn data structure and algorithm with examples.</p>
                 <a href="/algorithm/?n=algorithm&c=algorithm&s=data-structure" class="btn btn-outline-primary"><i
@@ -128,3 +134,5 @@ title: Happy Coding
 </div>
 
 <script src="/assets/js/navigate.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
